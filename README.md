@@ -28,21 +28,3 @@ Based on the developed Power BI dashboards (referenced in images 1-5):
 •	Pay Equity: Significant salary differences were identified in "Laboratory Technician" and "Sales Executive" roles compared to department averages.
 4. Wellbeing & Overtime
 •	The Burnout Trigger: Working Overtime (OT) leads to an 87.5% attrition rate in specific roles like Sales Representatives.
-💻 Installation & Setup
-Prerequisites
-•	SQL Server with the mostaql database attached.
-•	Python 3.10+
-•	Google Gemini API Key.
-Steps
-1.	Clone the Repository:
-2.	git clone https://github.com/yourusername/hr-analytics-ai.git
-3.	Install Dependencies:
-4.	pip install streamlit pandas pyodbc google-genai
-5.	Database Configuration: Ensure your SQL Server connection string in hr_chatbot.py matches your local environment.
-6.	Run the Chatbot:
-7.	streamlit run hr_chatbot.py
-📈 Strategic Recommendations
-•	Implement Hybrid Work: Specifically for employees in the "Far" distance category to reduce commute burnout.
-•	OT Ceiling: Set a cap on overtime for Junior roles to prevent early-stage resignations.
-•	Junior Mentorship: Targeted retention programs for Year 0 employees to lower the $53.52\%$ turnover rate.
-
